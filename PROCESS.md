@@ -33,6 +33,7 @@ My Store is a JavaScript responsive ecommerce store that features configurable m
   * Quantity
   * Variations
   * Description
+  * Category
   * Main photo
   * Additional photos
   * Video embed?
