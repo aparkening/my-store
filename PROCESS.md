@@ -1,12 +1,52 @@
 # My Store Development Process
 
+My Store is a JavaScript responsive ecommerce store that features configurable modules, colors, and fonts.
+
 ## 1. Identify key features
+* Basic pages used for ecommerce (Home, Products, Product Detail, etc.)
+* Drag-and-drop page modules (related products, bundles, etc.)
+* Cart that remembers items across pages
+* Configurable app-wide themes based on color, font, etc.
+* JSON data for store, user, and configuration preferences 
 
 ## 2. Imagine interface
 
 ### Pages
+* Home
+* Products
+* Product Detail
+* About
+* Cart
+* Checkout
+* Account
+* Theme configuration
+* Page builder
 
 ### Page Components
+* Section buckets
+* Logo
+* Navigation
+* Product teaser
+* Product detail:
+  * Title
+  * Price
+  * Quantity
+  * Variations
+  * Description
+  * Main photo
+  * Additional photos
+  * Video embed?
+  * Add to cart button
+* Cart preview
+* Top Bar
+* Banner
+* Footer
+* Related products
+* Product groups
+* Bundles (variation of product groups?)
+* Social media icons
+* Reviews teaser
+* Reviews 
 
 ## 3. Outline project structure
 ```
