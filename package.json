@@ -1,0 +1,23 @@
+{
+  "name": "my-store",
+  "version": "0.0.1",
+  "description": "Practice with ecommerce store creation and configuration in JavaScript",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparkening/my-store.git"
+  },
+  "author": "@aparkening",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://github.com/aparkening/my-store",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "lodash": "^4.17.15"
+  }
+}
