@@ -49,14 +49,34 @@ My Store is a JavaScript responsive ecommerce store that features configurable m
 * Reviews teaser
 * Reviews 
 
-## 3. Outline project structure
+## 3. Create initial product data from faker
+
+## 4. Build Home layout
+* Content sections: 
+  * Top bar
+  * Navigation
+  * Banner
+  * Footer
+  * More content
+* Logo/Branding
+* Navigation
+* Content 1-5
+
+Keep in mind configurable items:
+* Navigation background and text colors w/ hover and active
+* Button background and text colors w/ hover
+* Body background and text color
+* Highlight background and text color
+* Secondary background and text color
+* Footer background and text color
+* Font faces:
+  * Main
+  * Secondary
+
+## 5. Outline file structure
 ```
 
 ```
-
-## 4. Create initial product data from faker
-
-## 5. Build Home layout
 
 ## 6. Stub remaining layouts
 1. Hardcode to show display details
