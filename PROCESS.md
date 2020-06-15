@@ -18,9 +18,9 @@ My Store is a JavaScript responsive ecommerce store that features configurable m
 * About
 * Cart
 * Checkout
-* Account
-* Theme configuration
-* Page builder
+* Shopper Account
+* Theme Configuration
+* Home Builder
 
 ### Page Components
 * Section buckets
@@ -54,19 +54,29 @@ My Store is a JavaScript responsive ecommerce store that features configurable m
 
 ```
 
-## 4. Create initial data from faker
+## 4. Create initial product data from faker
 
-## 5. Build initial layout
+## 5. Build Home layout
 
-## 6. Stub remaining interface
+## 6. Stub remaining layouts
 1. Hardcode to show display details
 2. Replace each section with dynamic code.
 3. Add tests for each dynamic code component.
 
+### Layouts:
+* Products w/ edit
+* Product Detail w/ edit
+* About w/ edit
+* Cart w/ add/remove modules
+* Checkout
+* Shopper Account
+* Theme Configuration
+* Home Builder
+
 ## 7. Run and tweak
-  - Improve error handling and responding to edge cases
-  - Refactor to remove duplicated work and separate concerns
-  - Clean up for production
+1. Improve error handling and responding to edge cases
+2. Refactor to remove duplicated work and separate concerns
+3. Clean up for production
 
 ## 8. Update Readme and Code of Conduct
 Model Readme on pattern in https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.
