@@ -38,6 +38,8 @@
   --splash-button-txt-color: var(--splash-bg-color);
   --splash-button-focus-bg-color: grey;
   --splash-button-focus-txt-color: white;
+
+  --border-color: var(--highlight-bg-color);
 }
 * {
   -webkit-box-sizing: border-box;
@@ -121,15 +123,14 @@ h6 {
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
  */
+ /* Left-aligned Box */
  .l-box {
   padding: var(--main-padding);
 }
-
 .l-box-lrg {
   padding: 2em;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  /* border-bottom: 1px solid var(--border-color); */
 }
-
 .is-center {
   text-align: center;
 }
@@ -251,6 +252,7 @@ h6 {
 /* We want to give the content area some more padding */
 .content {
   padding: 1em 1em 3em;
+  border-bottom: 1px solid var(--border-color);
 }
 
 /* This is the class used for the main content headers (<h2>) */
