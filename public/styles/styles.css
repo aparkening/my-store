@@ -17,27 +17,28 @@
 
   --secondary-bg-color: #efefef;
   --secondary-txt-color: #black;
-  --secondary-button-bg-color: var(--splash-txt-color);
-  --secondary-button-txt-color: var(--splash-bg-color);; 
+  --secondary-btn-bg-color: var(--splash-txt-color);
+  --secondary-btn-txt-color: var(--splash-bg-color);; 
   
   --highlight-bg-color: #2d3e50;
-  --highlight-txt-color: #1f8dd6;
-  --highlight-button-bg-color: var(--splash-txt-color);
-  --highlight-button-txt-color: var(--splash-bg-color);
-  --highlight-button-focus-bg-color: grey;
-  --highlight-button-focus-txt-color: white;
+  --highlight-txt-color: #aaa;
+  --highlight-h-txt-color: white;
+  --highlight-btn-bg-color: var(--splash-txt-color);
+  --highlight-btn-txt-color: var(--splash-bg-color);
+  --highlight-btn-focus-bg-color: grey;
+  --highlight-btn-focus-txt-color: white;
 
-  --button-bg-color: green;
-  --button-txt-color: white;
-  --button-focus-bg-color: blue; 
-  --button-focus-txt-color: white; 
+  --btn-bg-color: green;
+  --btn-txt-color: white;
+  --btn-focus-bg-color: blue; 
+  --btn-focus-txt-color: white; 
 
   --splash-bg-color: #1f8dd6;
   --splash-txt-color: white;
-  --splash-button-bg-color: var(--splash-txt-color);
-  --splash-button-txt-color: var(--splash-bg-color);
-  --splash-button-focus-bg-color: grey;
-  --splash-button-focus-txt-color: white;
+  --splash-btn-bg-color: var(--splash-txt-color);
+  --splash-btn-txt-color: var(--splash-bg-color);
+  --splash-btn-focus-bg-color: grey;
+  --splash-btn-focus-txt-color: white;
 
   --border-color: var(--highlight-bg-color);
 }
@@ -104,7 +105,7 @@ h6 {
 }
 .pure-button:hover,
 .pure-button:focus {
-  background: var(--button-focus-bg-color);
+  background: var(--btn-focus-bg-color);
 }
 .button-success,
 .button-error,
@@ -114,8 +115,8 @@ h6 {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 .button-secondary {
-  background: var(--secondary-button-bg-color);
-  color: var(--secondary-button-txt-color);
+  background: var(--secondary-btn-bg-color);
+  color: var(--secondary-btn-txt-color);
 }
 
 
@@ -222,13 +223,13 @@ h6 {
   opacity: 0.8;
 }
 .splash .pure-button {
-  background: var(--splash-button-bg-color);
-  color: var(--splash-button-txt-color);
+  background: var(--splash-btn-bg-color);
+  color: var(--splash-btn-txt-color);
 }
 .splash .pure-button:hover,
 .splash .pure-button:focus {
-  background: var(--splash-button-focus-bg-color);
-  color: var(--splash-button-focus-txt-color);
+  background: var(--splash-btn-focus-bg-color);
+  color: var(--splash-btn-focus-txt-color);
 }
 
 
@@ -278,17 +279,18 @@ h6 {
 
 /* This is the class used for highlight areas. */
 .highlight {
-  background-color: var(--secondary-bg-color);
-  color: var(--secondary-txt-color);
+  background-color: var(--highlight-bg-color);
+  color: var(--highlight-txt-color);
+}
+.highlight .content-head {
+  color: 
+
 }
 
 .footer {
   background-color: var(--nav-bg-color);
   color: var(--nav-focus-txt-color);
   width: 100%;
-}
-.footer h3 {
-
 }
 
 
