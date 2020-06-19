@@ -149,12 +149,11 @@ h6 {
   background-color: var(--nav-bg-color);
 }
 .pure-menu.pure-menu-fixed {
-  /* Fixed menus normally have a border at the bottom. */
+  /* Pure fixed menus normally have a border at the bottom. */
   border-bottom: none;
-  /* I need a higher z-index here because of the scroll-over effect. */
+  /* Increase z-index for scroll-over effect. */
   z-index: 4;
 }
-
 .pure-menu .pure-menu-heading {
   color: var(--nav-focus-txt-color);
   font-weight: 400;
@@ -163,12 +162,10 @@ h6 {
 .pure-menu a {
   color: var(--nav-txt-color);
 }
-
 .pure-menu li a:hover,
 .pure-menu li a:focus {
   text-decoration: underline;
 }
-
 .top-menu .pure-menu-selected > .pure-menu-link, 
 .top-menu .pure-menu-selected > .pure-menu-link:visited,
 .top-menu .pure-menu-selected a,
@@ -287,8 +284,11 @@ h6 {
 
 .footer {
   background-color: var(--nav-bg-color);
-  color: var(--main-txt-color);
+  color: var(--nav-focus-txt-color);
   width: 100%;
+}
+.footer h3 {
+
 }
 
 
