@@ -283,8 +283,7 @@ h6 {
   color: var(--highlight-txt-color);
 }
 .highlight .content-head {
-  color: 
-
+  color: var(--highlight-h-txt-color);
 }
 
 .footer {
