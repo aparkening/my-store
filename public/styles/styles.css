@@ -12,8 +12,8 @@
   --main-txt-color: black;
   --main-padding: 1em;
 
-  --header-txt-color: --main-txt-color;
-  --header-2-txt-color: green;
+  --head-txt-color: --main-txt-color;
+  --subhead-txt-color: #1f8dd6;
 
   --secondary-bg-color: #efefef;
   --secondary-txt-color: #black;
@@ -59,18 +59,16 @@
   line-height: 1.5;
 }
 
-h1,
+h1, h2 { color: var(--head-txt-color); }
 h3,
 h5,
 label {
-  color: var(--header-txt-color);
+  color: var(--subhead-txt-color);
 }
-h2,
 h4,
 h6 {
-  color: var(--header-txt-color);
+  color: var(--head-txt-color);
 }
-
 
 .pure-img-responsive {
   max-width: 100%;
@@ -271,7 +269,7 @@ h6 {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-  color: var(--highlight-txt-color);
+  color: var(--subhead-txt-color);
 }
   .content-subhead i {
       margin-right: 7px;
