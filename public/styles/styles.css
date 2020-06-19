@@ -15,8 +15,8 @@
   --header-txt-color: --main-txt-color;
   --header-2-txt-color: green;
 
-  --secondary-bg-color: #2d3e50;
-  --secondary-txt-color: #aaa;
+  --secondary-bg-color: #efefef;
+  --secondary-txt-color: #black;
   --secondary-button-bg-color: var(--splash-txt-color);
   --secondary-button-txt-color: var(--splash-bg-color);; 
   
@@ -182,7 +182,7 @@ h6 {
 
 
 /*
- * -- HIGHLIGHT STYLES --
+ * -- SPLASH STYLES --
  */
 
 .splash-container {
@@ -252,7 +252,10 @@ h6 {
 /* We want to give the content area some more padding */
 .content {
   padding: 1em 1em 3em;
-  border-bottom: 1px solid var(--border-color);
+}
+.content:nth-child(2n) {
+  background-color: var(--secondary-bg-color);
+  /* border-bottom: 1px solid var(--border-color); */
 }
 
 /* This is the class used for the main content headers (<h2>) */
