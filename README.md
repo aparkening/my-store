@@ -1,6 +1,6 @@
 # My Store
 
-
+My Store is a JavaScript responsive ecommerce store that features configurable modules, colors, and fonts. The development process is documented in [PROCESS.md](https://github.com/aparkening/my-store/blob/master/PROCESS.md). 
 
 ## Installation
 
